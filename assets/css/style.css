@@ -391,6 +391,43 @@ section .container {
   color: #1c7d32;
 }
 
+.about-me .content .about-description {
+  margin-bottom: 25px;
+}
+
+.about-me .content .about-description p {
+  line-height: 1.8;
+  margin-bottom: 22px;
+  color: #e2e8f0;
+  font-size: 15.5px;
+}
+
+.about-me .content .about-description p.about-bring-title {
+  margin-bottom: 10px;
+  color: #f1f5f9;
+}
+
+.about-me .content .about-description ul.about-highlights {
+  list-style-type: disc !important;
+  padding-left: 24px !important;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.about-me .content .about-description ul.about-highlights li {
+  list-style-type: disc !important;
+  display: list-item !important;
+  padding-bottom: 8px;
+  line-height: 1.75;
+  color: #e2e8f0;
+  font-size: 15.5px;
+}
+
+.about-me .content .about-description p.about-tech {
+  margin-bottom: 24px;
+  color: #e2e8f0;
+}
+
 .about-me .content ul {
   list-style: none;
   padding: 0;
@@ -718,6 +755,34 @@ section .container {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+
+.services .icon-box .badge-current {
+  font-size: 12px;
+  background: rgba(18, 214, 64, 0.15);
+  color: #12d640;
+  border: 1px solid #12d640;
+  padding: 2px 8px;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-left: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+.services .icon-box ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.services .icon-box ul li {
+  padding-bottom: 8px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #fff;
 }
 
 .services .icon-box:hover {
